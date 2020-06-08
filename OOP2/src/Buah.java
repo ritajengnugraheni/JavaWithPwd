@@ -1,3 +1,4 @@
+package OOP2.src;
 
 public class Buah {
     private String nama;

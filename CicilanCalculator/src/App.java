@@ -1,3 +1,5 @@
+package CicilanCalculator.src;
+
 import java.util.Scanner;
 
 public class App {

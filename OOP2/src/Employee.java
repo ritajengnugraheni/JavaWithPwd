@@ -1,3 +1,5 @@
+package OOP2.src;
+
 public class Employee {
     
     // public int salary;

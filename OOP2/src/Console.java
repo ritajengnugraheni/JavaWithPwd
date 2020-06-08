@@ -1,3 +1,5 @@
+package OOP2.src;
+
 public class Console {
 
 	public static String readInputString (String message){

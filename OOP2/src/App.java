@@ -1,3 +1,4 @@
+package OOP2.src;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -71,32 +72,38 @@ public class App {
         //    });
          // System.out.println("1. " + buah.getNama() + " || " + buah.getHarga() + " || " + buah.getStock()+"pcs" );
 
-         while (true) {
-             System.out.println("=== Menu Utama === ");
-             System.out.println("1. Tambah buah || 2. List buah || 3. Exit");
-             System.out.print("Pilih menu nomor berapa: ");
-             int menu = scanner.nextInt();
+    //      while (true) {
+    //          System.out.println("=== Menu Utama === ");
+    //          System.out.println("1. Tambah buah || 2. List buah || 3. Exit");
+    //          System.out.print("Pilih menu nomor berapa: ");
+    //          int menu = scanner.nextInt();
 
-             if (menu == 1 ) {
-                Menu.tambahBuah();
-             } else if (menu == 2){
-                Menu.tampilListBuah();
-             } else if (menu == 3){
-                 break;
-             } else {
-                 System.out.println("menu yang anda pilih tidak tersedia");
-             }
+    //          if (menu == 1 ) {
+    //             Menu.tambahBuah();
+    //          } else if (menu == 2){
+    //             Menu.tampilListBuah();
+    //          } else if (menu == 3){
+    //              break;
+    //          } else {
+    //              System.out.println("menu yang anda pilih tidak tersedia");
+    //          }
 
-         }
+    //      }
           
             
             
            
-    }
+    // }
 
     
     // public static int calculate(int salary, int overtime, int payPerHour) {
     //     return salary + (overtime * payPerHour);
     // }
+    // Teman teman = new Teman(System.in)
 
+    Teman teman = new Teman();
+
+    teman.bicara();
+    System.out.println(teman.jumlahJari);
+    }
 }

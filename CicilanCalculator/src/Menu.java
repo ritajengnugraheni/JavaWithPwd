@@ -1,3 +1,5 @@
+package CicilanCalculator.src;
+
 public class Menu {
 
 	public static void MenuUtama(){

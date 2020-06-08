@@ -1,3 +1,5 @@
+package CicilanCalculator.src;
+
 public class Cicilan {
     private static int hargaAwal;
     private static int durasiCicilan;

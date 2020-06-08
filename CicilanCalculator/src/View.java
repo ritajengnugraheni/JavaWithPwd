@@ -1,3 +1,5 @@
+package CicilanCalculator.src;
+
 import java.text.NumberFormat;
 
 public class View {
